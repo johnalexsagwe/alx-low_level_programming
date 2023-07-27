@@ -1,14 +1,5 @@
 #include <stdio.h>
 
-/**
- * main - Entry point of the program
- *
- * Description: This function initializes an array 'a' with 5 integers,
- *              modifies the value of 'a[2]' indirectly using pointer 'p',
- *              and then prints the updated value of 'a[2]'.
- *
- * Return: Always 0 (Success)
- */
 int main(void)
 {
 	int n;
@@ -17,14 +8,13 @@ int main(void)
 
 	a[2] = 1024;
 	p = &n;
-
 	/*
-	 * Write your line of code here...
+	 * write your line of code here...
 	 * Remember:
-	 * - You are not allowed to use 'a'
-	 * - You are not allowed to modify 'p'
-	 * - Only one statement
-	 * - You are not allowed to code anything else than this line of code
+	 * - you are not allowed to use a
+	 * - you are not allowed to modify p
+	 * - only one statement
+	 * - you are not allowed to code anything else than this line of code
 	 */
 	*(p + 5) = 98;
 	/* ...so that this prints 98\n */
