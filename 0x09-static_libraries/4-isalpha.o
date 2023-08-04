@@ -1,0 +1,29 @@
+#include "main.h"
+
+/**
+ * _isalpha - checks for alphabetic character
+ * @c: the character to be checked
+ * Return: 1 if c is a letter, 0 otherwise
+ */
+int _isalpha(int c)
+{
+    int is_alpha = 0;
+
+    switch (c)
+    {
+        case 'A': // Fall-through
+        case 'B': // Fall-through
+        case 'C': // Fall-through
+        // ...
+        case 'Z':
+        case 'a': // Fall-through
+        case 'b': // Fall-through
+        case 'c': // Fall-through
+        // ...
+        case 'z':
+            is_alpha = 1;
+            break;
+    }
+
+    return is_alpha;
+}
