@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
-  *free_list - frees a listint_t
+  *free_listint - Frees a listint_t linked list.
   *@head: pointer to head of list.
   *
   *Return: 0.
