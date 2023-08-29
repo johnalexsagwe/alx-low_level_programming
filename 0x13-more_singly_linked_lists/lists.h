@@ -8,12 +8,9 @@
 
 /**
  * struct listint_s -singly linked list
- * @str: Pointer to a dynamically allocated string
+ * @n: paramater
  * @next: points to the next node
- * @len: Length of th string
- *
  * Description: Singly linked list node structure
- *
  */
 
 typedef struct listint_s
