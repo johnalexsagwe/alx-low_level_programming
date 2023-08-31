@@ -24,4 +24,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m);
 /* Function to check the endianness of the system */
 int get_endianness(void);
 
+/* _Putchar function */
+int _putchar(char c);
+
 #endif /* MAIN_H */
