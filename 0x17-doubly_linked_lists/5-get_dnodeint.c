@@ -16,5 +16,5 @@ head = head->next;
 index--;
 }
 
-return head;
+return (head);
 }

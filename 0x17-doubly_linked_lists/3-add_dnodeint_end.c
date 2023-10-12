@@ -23,7 +23,7 @@ new->next = NULL;
 if (*head == NULL)
 {
 *head = new;
-return new;
+return (new);
 }
 
 last = *head;
@@ -33,5 +33,5 @@ last = last->next;
 last->next = new;
 new->prev = last;
 
-return new;
+return (new);
 }
